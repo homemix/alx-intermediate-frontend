@@ -1,0 +1,17 @@
+1. Install SASS
+
+Ican install SASS globally using npm:
+
+npm install -g sass
+
+2. Compile SASS to CSS
+
+Run the following command to compile .scss to .css:
+
+sass input.scss output.css
+
+3. Watch for Changes
+
+To automatically recompile when changes occur:
+
+sass --watch input.scss:output.css
